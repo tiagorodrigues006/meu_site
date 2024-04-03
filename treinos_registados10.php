@@ -18,29 +18,6 @@
 <!-- Head Libs -->
 <script src="assets/vendor/modernizr/modernizr.js"></script>
 
-.sidebar {
-    width: 250px; /* Largura inicial do sidebar */
-    height: 100%; /* Altura total do sidebar */
-    background-color: #f4f4f4;
-    position: fixed;
-    left: 0;
-    top: 0;
-    transition: width 0.3s ease;
-    z-index: 1000;
-    overflow-y: auto; /* Adicione rolagem vertical se o conteúdo for maior que a altura do sidebar */
-}
-
-.sidebar-toggle {
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1100;
-}
 <style>
         /* Estilos para o botão */
         .btn-blue {
